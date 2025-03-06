@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+
+    <H1>Listas ordenadas</H1>
+    <ol>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir ao trabalho</li>
+        <li>Almoçar </li>
+        <li>jantar dormir</li>
+    </ol>
+
+
+    <H1>Listas não ordenadas</H1>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Queijo</li>
+        <li>Arroz</li>
+        <li>Toamte</li>  <!--  -->
+    </ul>
+
+    <h1>Linguaguens de programação</h1>
+
+    <ol>
+        <li>Linguaguens mais antigas</li>
+            <ol type="a">
+                <li>Cobol</li>
+                <li>Java</li>
+                <li>C</li>
+            </ol>
+
+            <li>Linguaguens mais novas</li>
+            <ol type="a" start="d">
+                <li>Dart</li>
+                <li>Pyton</li>
+                <li>Kotlin</li>
+            </ol>
+    </ol>
+
+    <h1>Termos</h1>
+
+    <dl>
+
+        <dt>Html</dt>
+        <dd>Linguaguem de marcaçao de textos</dd>
+
+        <dt>Termo</dt>
+            <dt>Definiçao</dt>
+
+    </dl>
+
+    <h1>Veja o exemplo de codigo a seguir</h1>
+
+    <pre>
+        <code>
+            ficha = list()
+while True:
+    <abbr title="Nome do aluno">nome</abbr> = str(input("Insira um nome: "))
+    sexo = str(input("Insira seu sexo [M/F]: "))
+    nota1 = <abbr title="Numeros flutuantes 1.6 , 7.9">float</abbr>(input("Insira a nota 1: "))
+    nota2 = float(input("Insira a nota 2: "))
+    nota3 = float(input("Insira a nota 3: "))
+    media = (nota1 + nota2 + nota3) / 3
+    ficha.append([nome, sexo, [nota1, nota2, nota3], media])
+    resposta = str(input("Quer continuar? [S/N]"))
+    if resposta in 'Nn':
+        break
+        </code>
+    </pre>
+    
+
+    
+    
+</body>
+</html>
