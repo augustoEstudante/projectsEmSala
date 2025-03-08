@@ -1,7 +1,11 @@
 body {
     background-color: rgb(178, 250, 178);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
+    font-family: teste;
+   
+    
+    
+   
 }
 
 h2{
@@ -12,3 +16,11 @@ h2{
 p{
     color: rgb(53, 58, 58);
 }
+
+@font-face {
+    font-family: teste ;
+    src: url(/Aula06Março/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf) 
+    format('truetype');
+}
+
+
