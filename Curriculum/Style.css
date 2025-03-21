@@ -1,27 +1,31 @@
-body{
-    font-family: Tektur;
-    background-color: antiquewhite;
+  body {
+            font-family: 'Tektur', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-}
+        #container {
+            margin: 15%;
+            width: 70%;
+            max-width: 600px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 3px solid gray;
+            text-align: center;
+        }
 
-@font-face {
-    font-family: Tektur ;
-    src: url(/Curriculum/fonts/Tektur-VariableFont_wdth\,wght.ttf) 
-    format('truetype');
-}
+        h1, h2 {
+            color: gray;
+        }
 
-#name{
-    text-align: center;
-}
-
-#year{
-    text-align: center;
-}
-
-#div1{
-    margin: 15%;
-    width: 70%;
-    height: 1500px;
-    border:  3px solid rgb(156, 119, 74);
-
-}
+        .info {
+            font-size: 18px;
+            margin-top: 10px;
+        }
