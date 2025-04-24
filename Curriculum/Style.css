@@ -1,31 +1,47 @@
-  body {
-            font-family: 'Tektur', sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+body {
+    font-family: 'Tektur', sans-serif;
+    background: linear-gradient(to bottom, #000000, #555555, #ffffff);
 
-        #container {
-            margin: 15%;
-            width: 70%;
-            max-width: 600px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border: 3px solid gray;
-            text-align: center;
-        }
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
-        h1, h2 {
-            color: gray;
-        }
+#container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid gray;
+    text-align: center;
+    box-sizing: border-box;
+}
 
-        .info {
-            font-size: 18px;
-            margin-top: 10px;
-        }
+h1, h2 {
+    color: gray;
+}
+
+.info {
+    font-size: 18px;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+/* Responsivo para dispositivos menores */
+@media (max-width: 480px) {
+    .info {
+        font-size: 16px;
+    }
+
+    #container {
+        padding: 15px;
+        border-width: 2px;
+    }
+}
